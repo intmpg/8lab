@@ -1,0 +1,10 @@
+﻿Сборка начата 12.12.2015 21:47:32.
+     1>Проект "C:\uaz\car\UazAlmaz\UazAlmaz.vcxproj" в узле 2 (целевые объекты Build).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(392,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (ConsoleApplication5.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+     1>Link:
+         UazAlmaz.vcxproj -> C:\uaz\car\UazAlmaz\Debug\UazAlmaz.exe
+     1>Сборка проекта "C:\uaz\car\UazAlmaz\UazAlmaz.vcxproj" завершена (целевые объекты Build).
+
+Сборка успешно завершена.
+
+Затраченное время: 00:00:00.05
