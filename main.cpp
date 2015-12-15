@@ -9,15 +9,6 @@
 using namespace sf;
 using namespace std;
 
-void draw_objects(RenderWindow &window, UazModel &uaz, RectangleShape background)
-{
-	window.clear();
-	window.draw(background);
-	window.draw(uaz.bodyCarSprite);
-	window.draw(uaz.leftWheel);
-	window.draw(uaz.rightWheel);
-	window.display();
-}
 
 void start_programm(RenderWindow &window, UazModel &uaz, RectangleShape background)
 {
@@ -38,26 +29,13 @@ void start_programm(RenderWindow &window, UazModel &uaz, RectangleShape backgrou
 		}
 
 		uaz.counting_speed(event, time);
-		draw_objects(window, uaz, background);
+		uaz.draw_objects(window, uaz, background);
 	}
 }
 
 int main(){
 
 	sf::RenderWindow window(sf::VideoMode(WINDOW_SIZE.x, WINDOW_SIZE.y), "UAZ Simulator");
-
-	Texture bodyCarTexture, carWheelTexture;
-	bodyCarTexture.loadFromFile("images/body.png");
-	carWheelTexture.loadFromFile("images/wheel.png");
-
-	UazModel uaz;
-	uaz.bodyCarSprite.setTexture(bodyCarTexture);
-
-	uaz.leftWheel.setTexture(carWheelTexture);
-	uaz.leftWheel.setOrigin(RADIUS_WHEEL, RADIUS_WHEEL);
-
-	uaz.rightWheel.setTexture(carWheelTexture);
-	uaz.rightWheel.setOrigin(RADIUS_WHEEL, RADIUS_WHEEL);
 
 	RectangleShape background;
 

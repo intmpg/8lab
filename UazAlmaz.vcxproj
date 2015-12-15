@@ -151,6 +151,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="UazModel.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="UazModel.h" />
