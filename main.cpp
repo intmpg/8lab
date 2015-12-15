@@ -10,7 +10,7 @@ using namespace sf;
 using namespace std;
 
 
-void start_programm(RenderWindow &window, UazModel &uaz, RectangleShape background)
+void start_programm(RenderWindow &window, UazModel & uaz, RectangleShape background)
 {
 	Clock clock;
 

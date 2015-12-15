@@ -2,6 +2,11 @@
 #include "UazModel.h"
 #include "var.h"
 
+sf::Vector2f carCoordinate = { 0, 200 };
+float acceleration = 0.0001;
+float rotation = 0;
+float speed = 0;
+
 void UazModel::init_car()
 {
 	Texture bodyCarTexture, carWheelTexture;

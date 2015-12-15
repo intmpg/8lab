@@ -1,28 +1,23 @@
-﻿Сборка начата 15.12.2015 14:57:16.
+﻿Сборка начата 15.12.2015 15:12:47.
      1>Проект "C:\UazAlmaz\UazAlmaz.vcxproj" в узле 2 (целевые объекты Build).
      1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(392,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (ConsoleApplication5.vcxproj).  This can lead to incorrect clean and rebuild behavior.
      1>ClCompile:
          C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /I"C:\SFML-Visual_Studio2015RCx64\include" /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D "SFML-DYNAMIC" /D Win32 /D _DEBUG /D _CONSOLE /D _LIB_UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt UazModel.cpp main.cpp
          main.cpp
      1>c:\uazalmaz\var.h(13): warning C4305: инициализация: усечение из "double" к "float"
-     1>c:\uazalmaz\var.h(14): warning C4091: static : пропускается слева от "const float", когда ни одна переменная не объявлена
-     1>c:\uazalmaz\var.h(14): error C2143: синтаксическая ошибка: отсутствие ";" перед "константа"
-     1>c:\uazalmaz\var.h(14): error C2059: синтаксическая ошибка: константа
-     1>c:\uazalmaz\uazmodel.h(9): warning C4305: инициализация: усечение из "double" к "float"
      1>c:\uazalmaz\main.cpp(23): warning C4244: инициализация: преобразование "sf::Int64" в "float", возможна потеря данных
      1>c:\uazalmaz\main.cpp(38): warning C4244: аргумент: преобразование "const float" в "unsigned int", возможна потеря данных
      1>c:\uazalmaz\main.cpp(42): error C2065: uaz: необъявленный идентификатор
          UazModel.cpp
-     1>c:\uazalmaz\uazmodel.h(9): warning C4305: инициализация: усечение из "double" к "float"
      1>c:\uazalmaz\var.h(13): error C2065: M_PI: необъявленный идентификатор
      1>c:\uazalmaz\var.h(13): error C2789: "CIRCLE_LENGTH": требуется инициализация объекта типа класса, квалифицированного как const
          c:\uazalmaz\var.h(13): note:  см. объявление "CIRCLE_LENGTH"
-     1>c:\uazalmaz\var.h(14): warning C4305: инициализация: усечение из "double" к "float"
-     1>c:\uazalmaz\uazmodel.cpp(14): warning C4244: аргумент: преобразование "const int" в "float", возможна потеря данных
-     1>c:\uazalmaz\uazmodel.cpp(17): warning C4244: аргумент: преобразование "const int" в "float", возможна потеря данных
+     1>c:\uazalmaz\uazmodel.cpp(6): warning C4305: инициализация: усечение из "double" к "float"
+     1>c:\uazalmaz\uazmodel.cpp(19): warning C4244: аргумент: преобразование "const int" в "float", возможна потеря данных
+     1>c:\uazalmaz\uazmodel.cpp(22): warning C4244: аргумент: преобразование "const int" в "float", возможна потеря данных
          Создание кода...
      1>Сборка проекта "C:\UazAlmaz\UazAlmaz.vcxproj" завершена (целевые объекты Build) с ошибкой.
 
 Ошибка сборки.
 
-Затраченное время: 00:00:00.96
+Затраченное время: 00:00:00.97
