@@ -24,12 +24,10 @@ void UazModel::init_car()
 
 void UazModel::draw_objects(RenderWindow & window, UazModel & uaz, RectangleShape background)
 {
-	window.clear();
 	window.draw(background);
 	window.draw(uaz.bodyCarSprite);
 	window.draw(uaz.leftWheel);
 	window.draw(uaz.rightWheel);
-	window.display();
 }
 
 void UazModel::counting_speed(Event event, float time)

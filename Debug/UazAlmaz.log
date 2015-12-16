@@ -1,13 +1,16 @@
-﻿Сборка начата 15.12.2015 15:12:47.
+﻿Сборка начата 16.12.2015 21:34:00.
      1>Проект "C:\UazAlmaz\UazAlmaz.vcxproj" в узле 2 (целевые объекты Build).
      1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(392,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (ConsoleApplication5.vcxproj).  This can lead to incorrect clean and rebuild behavior.
      1>ClCompile:
          C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /I"C:\SFML-Visual_Studio2015RCx64\include" /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D "SFML-DYNAMIC" /D Win32 /D _DEBUG /D _CONSOLE /D _LIB_UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt UazModel.cpp main.cpp
          main.cpp
      1>c:\uazalmaz\var.h(13): warning C4305: инициализация: усечение из "double" к "float"
-     1>c:\uazalmaz\main.cpp(23): warning C4244: инициализация: преобразование "sf::Int64" в "float", возможна потеря данных
+     1>c:\uazalmaz\main.cpp(30): error C2228: выражение слева от ".getElapsedTime" должно представлять класс, структуру или объединение
+     1>c:\uazalmaz\main.cpp(30): error C2228: выражение слева от ".asMicroseconds" должно представлять класс, структуру или объединение
+     1>c:\uazalmaz\main.cpp(31): error C2228: выражение слева от ".restart" должно представлять класс, структуру или объединение
      1>c:\uazalmaz\main.cpp(38): warning C4244: аргумент: преобразование "const float" в "unsigned int", возможна потеря данных
-     1>c:\uazalmaz\main.cpp(42): error C2065: uaz: необъявленный идентификатор
+     1>c:\uazalmaz\main.cpp(47): error C2664: "void UazModel::counting_speed(sf::Event,float)": невозможно преобразовать аргумент 2 из "time_t (__cdecl *)(time_t *const )" в "float"
+         c:\uazalmaz\main.cpp(47): note: Контекст не позволяет устранить неоднозначность перегруженной функции
          UazModel.cpp
      1>c:\uazalmaz\var.h(13): error C2065: M_PI: необъявленный идентификатор
      1>c:\uazalmaz\var.h(13): error C2789: "CIRCLE_LENGTH": требуется инициализация объекта типа класса, квалифицированного как const
@@ -20,4 +23,4 @@
 
 Ошибка сборки.
 
-Затраченное время: 00:00:00.97
+Затраченное время: 00:00:01.22
